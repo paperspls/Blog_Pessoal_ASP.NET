@@ -9,7 +9,7 @@ namespace blogpessoal
         [Key] // Primary Key (Id)
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)] // IDENTITY(1, 1)
         public long Id { get; set; }
-            
+
         [Column(TypeName = "varchar")]
         [StringLength(100)]
         public string Titulo { get; set; } = string.Empty;

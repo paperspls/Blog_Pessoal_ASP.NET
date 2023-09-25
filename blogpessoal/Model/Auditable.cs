@@ -2,6 +2,6 @@
 {
     public class Auditable
     {
-        public DateTimeOffset? Data {  get; set; }
+        public DateTimeOffset? Data { get; set; }
     }
 }

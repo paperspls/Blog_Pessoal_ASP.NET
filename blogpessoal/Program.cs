@@ -20,7 +20,7 @@ namespace blogpessoal
             // Conexão com o banco de dados
             var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 
-            builder.Services.AddDbContext<AppDbContext> (options =>
+            builder.Services.AddDbContext<AppDbContext>(options =>
                 options.UseSqlServer(connectionString)
             );
 
@@ -49,7 +49,7 @@ namespace blogpessoal
             var app = builder.Build();
 
             // Criando o banco de dados e as tabelas
-            using(var scope = app.Services.CreateAsyncScope())
+            using (var scope = app.Services.CreateAsyncScope())
             {
                 var dbContext = scope.ServiceProvider.GetRequiredService<AppDbContext>();
                 dbContext.Database.EnsureCreated();
