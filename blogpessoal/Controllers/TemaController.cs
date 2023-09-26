@@ -17,7 +17,7 @@ namespace blogpessoal.Controllers
         public TemaController(ITemaService TemaService, IValidator<Tema> TemaValidator)
         {
             _temaService = TemaService;
-            _temaValidator = TemaValidator;
+            _temaValidator = TemaValidator; 
         }
 
         [HttpGet]
@@ -32,7 +32,7 @@ namespace blogpessoal.Controllers
             var Resposta = await _temaService.GetById(id);
 
             if (Resposta is null)
-                return NotFound();
+                return NotFound();  
 
             return Ok(Resposta);
         }

@@ -17,5 +17,7 @@ namespace blogpessoal
         [Column(TypeName = "varchar")]
         [StringLength(100)]
         public string Texto { get; set; } = string.Empty;
+
+        public virtual Tema? Tema { get; set; }
     }
 }

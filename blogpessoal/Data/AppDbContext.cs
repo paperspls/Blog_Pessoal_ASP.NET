@@ -6,14 +6,18 @@ namespace blogpessoal.Data
     public class AppDbContext : DbContext
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
-        {
-
-        }
+        { }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Postagem>().ToTable("tb_postagens");
             modelBuilder.Entity<Tema>().ToTable("tb_temas");
+
+            _ = modelBuilder.Entity<Postagem>()
+                .HasOne(_ => _.Tema)
+                .WithMany(t => t.Postagem)
+                .HasForeignKey("TemaId")
+                .OnDelete(DeleteBehavior.Cascade);
         }
 
 
@@ -32,7 +36,7 @@ namespace blogpessoal.Data
                 //Se uma propriedade da Classe Auditable estiver sendo criada. 
                 if (insertedEntry is Auditable auditableEntity)
                 {
-                    auditableEntity.Data = DateTimeOffset.UtcNow;
+                    auditableEntity.Data = new DateTimeOffset(DateTime.Now, new TimeSpan(-3, 0, 0));
                 }
             }
 
