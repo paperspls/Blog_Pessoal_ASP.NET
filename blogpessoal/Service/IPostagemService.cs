@@ -1,4 +1,6 @@
-﻿namespace blogpessoal.Service
+﻿using blogpessoal.Model;
+
+namespace blogpessoal.Service
 {
     public interface IPostagemService
     {

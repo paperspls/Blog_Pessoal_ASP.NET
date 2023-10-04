@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rhyan\\Desktop\\aspnet\\blogpessoal\\blogpessoal\\blogpessoal.csproj": {}
+    "C:\\Users\\Rhyan\\Desktop\\Gen\\aspnet\\Blog_Pessoal_ASP.NET\\blogpessoal\\blogpessoal.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rhyan\\Desktop\\aspnet\\blogpessoal\\blogpessoal\\blogpessoal.csproj": {
+    "C:\\Users\\Rhyan\\Desktop\\Gen\\aspnet\\Blog_Pessoal_ASP.NET\\blogpessoal\\blogpessoal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rhyan\\Desktop\\aspnet\\blogpessoal\\blogpessoal\\blogpessoal.csproj",
+        "projectUniqueName": "C:\\Users\\Rhyan\\Desktop\\Gen\\aspnet\\Blog_Pessoal_ASP.NET\\blogpessoal\\blogpessoal.csproj",
         "projectName": "blogpessoal",
-        "projectPath": "C:\\Users\\Rhyan\\Desktop\\aspnet\\blogpessoal\\blogpessoal\\blogpessoal.csproj",
+        "projectPath": "C:\\Users\\Rhyan\\Desktop\\Gen\\aspnet\\Blog_Pessoal_ASP.NET\\blogpessoal\\blogpessoal.csproj",
         "packagesPath": "C:\\Users\\Rhyan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rhyan\\Desktop\\aspnet\\blogpessoal\\blogpessoal\\obj\\",
+        "outputPath": "C:\\Users\\Rhyan\\Desktop\\Gen\\aspnet\\Blog_Pessoal_ASP.NET\\blogpessoal\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rhyan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,9 +40,17 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "BCrypt.Net-Core": {
+              "target": "Package",
+              "version": "[1.6.0, )"
+            },
             "FluentValidation": {
               "target": "Package",
               "version": "[11.7.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.11, )"
             },
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
@@ -50,7 +58,7 @@
             },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[7.0.10, )"
+              "version": "[7.0.11, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -69,6 +77,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.0.2, )"
             }
           },
           "imports": [

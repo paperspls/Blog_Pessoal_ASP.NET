@@ -1,13 +1,13 @@
-﻿using blogpessoal.Model;
+﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 
-namespace blogpessoal
+namespace blogpessoal.Model
 {
     public class Postagem : Auditable
     {
-        [Key] // Primary Key (Id)
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)] // IDENTITY(1, 1)
+
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public long Id { get; set; }
 
         [Column(TypeName = "varchar")]
@@ -15,9 +15,12 @@ namespace blogpessoal
         public string Titulo { get; set; } = string.Empty;
 
         [Column(TypeName = "varchar")]
-        [StringLength(100)]
+        [StringLength(1000)]
         public string Texto { get; set; } = string.Empty;
 
         public virtual Tema? Tema { get; set; }
+
+        public virtual User? Usuario { get; set; }
+
     }
 }
