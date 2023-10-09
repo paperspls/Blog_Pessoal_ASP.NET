@@ -6,6 +6,9 @@
     <a href="https://blogpessoal-ltog.onrender.com/index.html">
         <img src="https://i.imgur.com/HoeJ0yy.png" alt="Button Example">
     </a>
+    <p>🕒 Aviso:
+   O host da aplicação está sendo inicializado e pode demorar alguns minutos para carregar completamente. Se a página não carregar após 1 minuto, por favor, atualize-a para garantir uma experiência fluida! 
+</p>
 </div>
 
 
