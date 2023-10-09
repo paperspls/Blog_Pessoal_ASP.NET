@@ -2,6 +2,11 @@
 <img  height="350em" src="https://github.com/paperspls/Blog_Pessoal_ASP.NET/blob/main/repositoryimage.jpeg">
 </p>
 
+<div align="center">
+    
+[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=Blog_Pessoal_ASP.NET&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fpaperspls%2FBlog_Pessoal_ASP.NET%2Fmain%2Fblogpessoal%2FProperties%2FlaunchSettings.json)
+</div>
+
 # BlogPessoal ASP.NET 🚀
 
 Bem-vindo ao Blog Pessoal ASP.NET, um projeto desenvolvido durante o bootcamp da Generation Brasil. Este blog pessoal é uma plataforma onde os usuários podem criar, editar, excluir e visualizar postagens, além de associá-las a diferentes temas. É uma aplicação ASP.NET que utiliza tecnologias modernas para fornecer uma experiência de blogging intuitiva.
