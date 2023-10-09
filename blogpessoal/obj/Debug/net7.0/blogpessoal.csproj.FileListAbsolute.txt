@@ -243,3 +243,7 @@ C:\Users\Rhyan\Desktop\Gen\aspnet\Blog_Pessoal_ASP.NET\blogpessoal\obj\Debug\net
 C:\Users\Rhyan\Desktop\Gen\aspnet\Blog_Pessoal_ASP.NET\blogpessoal\obj\Debug\net7.0\blogpessoal.csproj.CopyComplete
 C:\Users\Rhyan\Desktop\Gen\aspnet\Blog_Pessoal_ASP.NET\blogpessoal\obj\Debug\net7.0\blogpessoal.genruntimeconfig.cache
 C:\Users\Rhyan\Desktop\Gen\aspnet\Blog_Pessoal_ASP.NET\blogpessoal\obj\Debug\net7.0\ref\blogpessoal.dll
+C:\Users\Rhyan\Desktop\Gen\aspnet\Blog_Pessoal_ASP.NET\blogpessoal\bin\Debug\net7.0\MicroElements.Swashbuckle.FluentValidation.dll
+C:\Users\Rhyan\Desktop\Gen\aspnet\Blog_Pessoal_ASP.NET\blogpessoal\bin\Debug\net7.0\Scrutor.dll
+C:\Users\Rhyan\Desktop\Gen\aspnet\Blog_Pessoal_ASP.NET\blogpessoal\bin\Debug\net7.0\Swashbuckle.AspNetCore.Filters.dll
+C:\Users\Rhyan\Desktop\Gen\aspnet\Blog_Pessoal_ASP.NET\blogpessoal\bin\Debug\net7.0\Swashbuckle.AspNetCore.Filters.Abstractions.dll

@@ -11,7 +11,9 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Mvc.ApplicationParts.ApplicationPartAttribute("MicroElements.Swashbuckle.FluentValidation")]
 [assembly: Microsoft.AspNetCore.Mvc.ApplicationParts.ApplicationPartAttribute("Microsoft.AspNetCore.OpenApi")]
+[assembly: Microsoft.AspNetCore.Mvc.ApplicationParts.ApplicationPartAttribute("Swashbuckle.AspNetCore.Filters")]
 [assembly: Microsoft.AspNetCore.Mvc.ApplicationParts.ApplicationPartAttribute("Swashbuckle.AspNetCore.SwaggerGen")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
