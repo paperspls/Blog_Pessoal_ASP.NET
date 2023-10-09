@@ -106,7 +106,7 @@ namespace blogpessoal
                     Description = "Projeto Blog Pessoal - ASP.NET Core 7 - Entity Framework",
                     Contact = new OpenApiContact
                     {
-                        Name = "Rhyan Magalhães",
+                        Name = "Rhyan Magalhaes",
                         Email = "rhyan.magalhaes@outlook.com",
                         Url = new Uri("https://github.com/paperspls/Blog_Pessoal_ASP.NET")
                     },
