@@ -25,6 +25,7 @@ namespace blogpessoal
             builder.Services.AddControllers()
                 .AddNewtonsoftJson(options =>
                 {
+                    options.SerializerSettings.NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore;
                     options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
                 });
 
