@@ -2,9 +2,14 @@
 <img  height="350em" src="https://github.com/paperspls/Blog_Pessoal_ASP.NET/blob/main/repositoryimage.jpeg">
 </p>
 
+<div align="center">
+    
+[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=Blog_Pessoal_ASP.NET&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fpaperspls%2FBlog_Pessoal_ASP.NET%2Fmain%2Fblogpessoal%2FProperties%2FlaunchSettings.json)
+</div>
+
 # BlogPessoal ASP.NET 🚀
 
-Bem-vindo ao Blog Pessoal ASP.NET, um projeto desenvolvido durante o bootcamp da Generation Brasil. Este blog pessoal é uma plataforma onde os usuários podem criar, editar, excluir e visualizar postagens, além de associá-las a diferentes temas. É uma aplicação ASP.NET que utiliza tecnologias modernas para fornecer uma experiência de blogging intuitiva.
+Bem-vindo ao Blog Pessoal ASP.NET, um projeto desenvolvido durante o bootcamp da Generation Brasil. Este blog pessoal é uma plataforma onde os usuários podem criar, editar, excluir e visualizar postagens, além de associá-las a usuários e diferentes temas, além de incorporar testes unitários para garantir robustez e confiabilidade. É uma aplicação ASP.NET que utiliza tecnologias modernas para fornecer uma experiência de blogging intuitiva.
 
 ## Funcionalidades Principais
 
@@ -16,7 +21,11 @@ Bem-vindo ao Blog Pessoal ASP.NET, um projeto desenvolvido durante o bootcamp da
 
 - **Busca de Postagens:** Uma funcionalidade de busca poderosa para encontrar postagens com base em palavras-chave.
 
+- **Associação a Usuários:** Atribua tarefas a usuários específicos para melhor organização.
+
 - **Associação a Temas:** Categorize suas postagens associando-as a diferentes temas.
+  
+- **Testes Unitários:** Garanta a qualidade do código com testes unitários.
 
 - **Outras Funcionalidades:** Explore outras funcionalidades.
 
@@ -24,12 +33,12 @@ Bem-vindo ao Blog Pessoal ASP.NET, um projeto desenvolvido durante o bootcamp da
 
 1. **Clone o Repositório:**
     ```bash
-    git clone https://github.com/seu-usuario/BlogPessoal-ASP.NET.git
+    git clone https://github.com/paperspls/Blog_Pessoal_ASP.NET.git
     ```
 
 2. **Acesse o Diretório:**
     ```bash
-    cd BlogPessoal-ASP.NET
+    cd blogpessoal
     ```
 
 3. **Execute o Projeto:**
@@ -54,6 +63,8 @@ O objetivo principal deste projeto é fornecer uma aplicação web dinâmica e f
 - **Entity Framework:** ORM utilizado para interagir com o banco de dados.
 
 - **SQL Server:** Banco de dados utilizado para armazenar as informações do blog.
+
+- **xUnit:** Framework utilizado para implementação de testes unitários.
 
 ## Contribuições
 
